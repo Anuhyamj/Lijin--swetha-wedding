@@ -22,7 +22,7 @@ jobs:
       - run: npm ci
       - run: npm run build
         env:
-          VITE_SITE_URL: https://anuhyamj.github.io/Lijin--swetha-wedding
+          VITE_SITE_URL: https://lijinwedsswetha.github.io/Lijin--swetha-wedding
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
